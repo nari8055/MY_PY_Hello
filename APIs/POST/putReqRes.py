@@ -15,5 +15,5 @@ data = {
 response = requests.put(url, json=data)
 
 # Printing the response
-print("Status Code:", response.status_code)
-print("Response JSON:", response.json())
+print("putStatus Code:", response.status_code)
+print("putResponse JSON:", response.json())
